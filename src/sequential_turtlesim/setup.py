@@ -28,6 +28,7 @@ setup(
             'vito_node = sequential_turtlesim.arvito_node:main',
             'fazle_node = sequential_turtlesim.fazle_node:main',
             'fathur_node = sequential_turtlesim.fathur_node:main',
+            'fayyazi_node = sequential_turtlesim.fayyazi_node:main',
         ],
     },
 )
