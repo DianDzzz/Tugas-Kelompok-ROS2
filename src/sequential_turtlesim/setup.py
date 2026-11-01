@@ -31,10 +31,11 @@ setup(
         'console_scripts': [
             'vito_node = sequential_turtlesim.arvito_node:main',
             'fazle_node = sequential_turtlesim.fazle_node:main',
-            'fathur_node = sequential_turtlesim.fathur_node:main',
             'umar_node = sequential_turtlesim.umar_node:main',
             'didan_node = sequential_turtlesim.didan_node:main',
+            'marvel_node = sequential_turtlesim.marvel_node:main',
             'awi_node = sequential_turtlesim.awi_node:main',
+            'fathur_node = sequential_turtlesim.fathur_node:main',
             'fayyazi_node = sequential_turtlesim.fayyazi_node:main',
         ],
     },
