@@ -26,6 +26,11 @@ def generate_launch_description():
         ),
         Node(
             package='sequential_turtlesim',
+            executable='didan_node',
+            output='screen',
+        ),
+        Node(
+            package='sequential_turtlesim',
             executable='awi_node',
             output='screen',
         ),
