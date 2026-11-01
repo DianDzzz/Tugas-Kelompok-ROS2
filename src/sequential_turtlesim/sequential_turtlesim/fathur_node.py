@@ -11,8 +11,8 @@ from rclpy.node import Node
 from rclpy.qos import DurabilityPolicy, QoSProfile, ReliabilityPolicy
 from rclpy.task import Future
 from std_msgs.msg import Int32MultiArray
-from turtlesim.msg import Pose
-from turtlesim.srv import SetPen
+from turtlesim_msgs.msg import Pose
+from turtlesim_msgs.srv import SetPen
 
 MEMBER_ID = 7
 NEXT_MEMBER_ID = 8
