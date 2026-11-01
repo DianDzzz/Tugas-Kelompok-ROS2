@@ -25,6 +25,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'fathur_node = sequential_turtlesim.fathur_node:main',
         ],
     },
 )
