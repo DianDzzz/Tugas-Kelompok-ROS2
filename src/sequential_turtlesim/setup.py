@@ -1,3 +1,6 @@
+from glob import glob
+import os
+
 from setuptools import find_packages, setup
 
 package_name = 'sequential_turtlesim'
@@ -10,6 +13,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     package_data={'': ['py.typed']},
     install_requires=['setuptools'],
@@ -28,6 +32,8 @@ setup(
             'vito_node = sequential_turtlesim.arvito_node:main',
             'fazle_node = sequential_turtlesim.fazle_node:main',
             'fathur_node = sequential_turtlesim.fathur_node:main',
+            'umar_node = sequential_turtlesim.umar_node:main',
+            'awi_node = sequential_turtlesim.awi_node:main',
             'fayyazi_node = sequential_turtlesim.fayyazi_node:main',
         ],
     },

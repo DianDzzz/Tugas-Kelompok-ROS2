@@ -11,8 +11,12 @@ from rclpy.node import Node
 from rclpy.qos import DurabilityPolicy, QoSProfile, ReliabilityPolicy
 from rclpy.task import Future
 from std_msgs.msg import Int32MultiArray
-from turtlesim_msgs.msg import Pose
-from turtlesim_msgs.srv import SetPen
+try:  # ROS 2 Lyrical and newer expose the messages in turtlesim_msgs.
+    from turtlesim_msgs.msg import Pose
+    from turtlesim_msgs.srv import SetPen
+except ImportError:  # ROS 2 Jazzy and older ship them inside turtlesim.
+    from turtlesim.msg import Pose
+    from turtlesim.srv import SetPen
 
 MEMBER_ID = 7
 NEXT_MEMBER_ID = 8
