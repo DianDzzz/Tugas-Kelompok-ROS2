@@ -21,7 +21,7 @@ NUMBERS = (7, 15)
 # Turn token layout: data = [current_number, active_member].
 TURN_TOPIC = '/relay/turn'
 
-PEN_COLOR = (255, 200, 0)
+PEN_COLOR = (255, 0, 0)
 PEN_WIDTH = 4
 
 SLOT_CENTER = (2.0, 2.0)
