@@ -15,14 +15,14 @@ Anggota:
 ---
 
 Urutan menggambar di turtlesim:
-- Arvito --> angka 1 dan 9 (sekaligus lakukan /clear di canvas turtle sim setelah siklus selesai)
-- Fazle --> angka 2 dan 10
-- Umar --> angka 3 dan 11
-- Didan --> angka 4 dan 12
-- Marvel --> angka 5 dan 13
-- Awi --> angka 6 dan 14
-- Fathur --> angka 7 dan 15
-- Fayyazi --> angka 8 dan 16 (sekaligus lakukan smooth transition ke idle mode setelah semua sequence selesai)
+- Arvito --> angka 1 dan 9 | warna pink (sekaligus lakukan /clear di canvas turtle sim setelah siklus selesai)
+- Fazle --> angka 2 dan 10 | warna biru tua
+- Umar --> angka 3 dan 11 | warna oranye
+- Didan --> angka 4 dan 12 | warna ungu
+- Marvel --> angka 5 dan 13 | warna hijau
+- Awi --> angka 6 dan 14 | warna kuning
+- Fathur --> angka 7 dan 15 | warna merah
+- Fayyazi --> angka 8 dan 16 | warna biru muda (sekaligus lakukan smooth transition ke idle mode setelah semua sequence selesai)
 
 > state awal turtle sim, kosong
 
