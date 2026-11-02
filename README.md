@@ -2,6 +2,18 @@ Kelompok 4
 
 ---
 
+> How to Run?
+
+source /opt/ros/jazzy/setup.bash
+
+colcon build --packages-select sequential_turtlesim
+
+source install/setup.bash
+
+ros2 launch sequential_turtlesim relay.launch.py
+
+---
+
 Anggota:
 - Arvito Rajapandya Natlysandro | 5054241046
 - Fazle Mawla Wahyuhanda | 5054241020
